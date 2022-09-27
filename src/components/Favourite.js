@@ -16,7 +16,7 @@ const Favourite = ({loadOptions}) => {
     <li className="active">  <img className="day-icon" src={'icons/' + localStorage.getItem('icon')+'.png'}  data-feather="sun"/><span className="day-name">{localStorage.getItem('city')}</span><span className="day-temp">{localStorage.getItem('myWind')} mph</span><Button variant="primary" id='mr-2'  onClick={handleShow}>
     View More
   </Button>
-  <Button variant="danger" onClick={localStorage.removeItem('myCty')}>
+  <Button variant="danger" onClick={localStorage.removeItem('city')}>
     X
   </Button>
   
