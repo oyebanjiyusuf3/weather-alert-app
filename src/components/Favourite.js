@@ -6,6 +6,11 @@ const Favourite = ({loadOptions}) => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const handleDelete =()=>{
+    console.log(localStorage.removeItem('city'));
+    window.alert("Country removed from favourite list")
+    window.location.reload(false);
+  }
   return (
     <div className="week-container">
     <hr />
@@ -16,7 +21,7 @@ const Favourite = ({loadOptions}) => {
     <li className="active">  <img className="day-icon" src={'icons/' + localStorage.getItem('icon')+'.png'}  data-feather="sun"/><span className="day-name">{localStorage.getItem('city')}</span><span className="day-temp">{localStorage.getItem('myWind')} mph</span><Button variant="primary" id='mr-2'  onClick={handleShow}>
     View More
   </Button>
-  <Button variant="danger" onClick={localStorage.removeItem('cty')}>
+  <Button variant="danger" onClick={handleDelete}>
     X
   </Button>
   
