@@ -19,7 +19,7 @@ const Forecast = ({ data }) => {
         </h3>
 
         <ul className="week-list">
-          {data.list.splice(0, 7).ma((item, idx) => (
+          {data.list.splice(0, 7).map((item, idx) => (
             <li className="active" key={idx}>
               <img
                 className="day-icon"
