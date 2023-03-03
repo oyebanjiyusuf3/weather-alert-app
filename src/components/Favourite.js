@@ -47,7 +47,7 @@ const Favourite = ({ loadOptions }) => {
                 />
                 <div className="wind-deg">
                   {" "}
-                  <span className="title">WND SPEED </span>
+                  <span className="title">WIND SPEED </span>
                   <span className="value">
                     {localStorage.getItem("wind")} mph{" "}
                   </span>
