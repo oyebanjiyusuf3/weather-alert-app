@@ -27,7 +27,7 @@ const Forecast = ({ data }) => {
                 data-feather="sun"
               />
               <span className="day-name">{forecastDays[idx]}</span>
-              <span className="day-temp">{item.wind.speed} mph</span>
+              <span className="day-temps">{item.wind.speed} mph</span>
             </li>
           ))}
           {/* <li><i className="day-icon" data-feather="cloud"></i><span className="day-name">Wed</span><span className="day-temp">28°C</span></li>
