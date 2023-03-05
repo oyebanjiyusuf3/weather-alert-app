@@ -5,7 +5,7 @@ import "./forecast.css";
 const WEEK_DAYS = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
 
 const Forecast = ({ data }) => {
-  const dayInAWeek = new Date().getDay();
+  const dayInAWeek = new Date().getDay(s);
   const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(
     WEEK_DAYS.slice(0, dayInAWeek)
   );
