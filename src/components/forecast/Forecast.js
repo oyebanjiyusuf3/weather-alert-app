@@ -35,7 +35,7 @@ const Forecast = ({ data }) => {
           <li><i className="day-icon" data-feather="cloud-rain"></i><span className="day-name">Fry</span><span className="day-temp">19°C</span></li>
           <li><i className="day-icon" data-feather="cloud-rain"></i><span className="day-name">Fry</span><span className="day-temp">19°C</span></li>
         */}
-          <div className="clea"></div>
+          <div className="clear"></div>
         </ul>
       </div>
     </>
