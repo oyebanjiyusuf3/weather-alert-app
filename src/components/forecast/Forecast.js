@@ -12,7 +12,7 @@ const Forecast = ({ data }) => {
 
   return (
     <>
-      <div className="week-container">
+      <div className="week-continer">
         <hr />
         <h3 className="text-character">
           Forecast wind information for the next 7 days
