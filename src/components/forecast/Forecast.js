@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./forecast.css";
 
-const WEEK_DAYS = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
+const WEEK_DAYS = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", ""];
 
 const Forecast = ({ data }) => {
   const dayInAWeek = new Date().getDay();
